@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pichau\\Desktop\\Atv-tecnicas-de-programacao\\AtividadeAV1\\AtividadeAV1.csproj": {}
+    "C:\\Users\\Pichau\\Desktop\\trabalho facul\\Atv-tecnicas-de-programacao\\AtividadeAV1\\AtividadeAV1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pichau\\Desktop\\Atv-tecnicas-de-programacao\\AtividadeAV1\\AtividadeAV1.csproj": {
+    "C:\\Users\\Pichau\\Desktop\\trabalho facul\\Atv-tecnicas-de-programacao\\AtividadeAV1\\AtividadeAV1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\Atv-tecnicas-de-programacao\\AtividadeAV1\\AtividadeAV1.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\trabalho facul\\Atv-tecnicas-de-programacao\\AtividadeAV1\\AtividadeAV1.csproj",
         "projectName": "AtividadeAV1",
-        "projectPath": "C:\\Users\\Pichau\\Desktop\\Atv-tecnicas-de-programacao\\AtividadeAV1\\AtividadeAV1.csproj",
+        "projectPath": "C:\\Users\\Pichau\\Desktop\\trabalho facul\\Atv-tecnicas-de-programacao\\AtividadeAV1\\AtividadeAV1.csproj",
         "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\Desktop\\Atv-tecnicas-de-programacao\\AtividadeAV1\\obj\\",
+        "outputPath": "C:\\Users\\Pichau\\Desktop\\trabalho facul\\Atv-tecnicas-de-programacao\\AtividadeAV1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

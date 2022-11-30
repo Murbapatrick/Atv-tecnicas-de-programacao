@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9NQKw+swfQQzskYJVov2sQopOhzzdYqf8TdrF63fmdiBCvLljrjg/3c2I6ebHwxqY/HZJ1odAAYY8NFUyshMEg==",
+  "dgSpecHash": "w0EbyDBwfG06DntnE09PgLuEuICxTRFTmmMAxudSjSwXD7sVFWt4+LfNzqamXnsFKYMCyChEYcv1R8O2dLpQSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\Atv-tecnicas-de-programacao\\AtividadeAV1\\AtividadeAV1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\trabalho facul\\Atv-tecnicas-de-programacao\\AtividadeAV1\\AtividadeAV1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Pichau\\.nuget\\packages\\bootstrap\\5.2.2\\bootstrap.5.2.2.nupkg.sha512"
+  ],
   "logs": []
 }
