@@ -2,6 +2,30 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AspNet.ScriptManager.bootstrap/4.6.0": {
+        "type": "package",
+        "dependencies": {
+          "bootstrap": "[4.5.9, 4.6.1)"
+        },
+        "compile": {
+          "lib/net45/AspNet.ScriptManager.bootstrap.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AspNet.ScriptManager.bootstrap.dll": {}
+        }
+      },
+      "AspNet.ScriptManager.jQuery/3.6.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "[3.5.9, 3.6.1)"
+        },
+        "compile": {
+          "lib/net45/AspNet.ScriptManager.jQuery.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AspNet.ScriptManager.jQuery.dll": {}
+        }
+      },
       "bootstrap/5.2.2": {
         "type": "package",
         "contentFiles": {
@@ -226,10 +250,39 @@
             "copyToOutput": false
           }
         }
+      },
+      "jQuery/3.6.1": {
+        "type": "package"
       }
     }
   },
   "libraries": {
+    "AspNet.ScriptManager.bootstrap/4.6.0": {
+      "sha512": "a5pmSriJ7mOxTLgGmLlIbUX06nPW9q8kZ6ehoklmyrA4wiIRs2XMlgjx7sx/bORKcNCh3Fwl7fQ1nlqBZqiegA==",
+      "type": "package",
+      "path": "aspnet.scriptmanager.bootstrap/4.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnet.scriptmanager.bootstrap.4.6.0.nupkg.sha512",
+        "aspnet.scriptmanager.bootstrap.nuspec",
+        "lib/net40/AspNet.ScriptManager.bootstrap.dll",
+        "lib/net45/AspNet.ScriptManager.bootstrap.dll"
+      ]
+    },
+    "AspNet.ScriptManager.jQuery/3.6.0": {
+      "sha512": "B/2ickp9SMhDpRYpELMlXsv/MfWKxe2G96Z8qRfw66Nc9em2BncOIYXMOW2T7/Ws/RbMVXGlmoZA170c0GhwyA==",
+      "type": "package",
+      "path": "aspnet.scriptmanager.jquery/3.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnet.scriptmanager.jquery.3.6.0.nupkg.sha512",
+        "aspnet.scriptmanager.jquery.nuspec",
+        "lib/net40/AspNet.ScriptManager.jQuery.dll",
+        "lib/net45/AspNet.ScriptManager.jQuery.dll"
+      ]
+    },
     "bootstrap/5.2.2": {
       "sha512": "947NZilDSNJ8V9xUBnwFR22RsyznWzPelKYKVbT7qwDlRR5YunBoO8bSKbLkdfajiSc2LWatBU4fMHrjrF0oeA==",
       "type": "package",
@@ -329,11 +382,37 @@
         "contentFiles/any/any/wwwroot/js/bootstrap.min.js",
         "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map"
       ]
+    },
+    "jQuery/3.6.1": {
+      "sha512": "qkG79nkEvz6Oeabe5+qTB0O/FZagMmzpaafeAJZIppYTfrJim75VWNYuR26MLQCx8FWoqarqjpaDZ0/YubKmWg==",
+      "type": "package",
+      "path": "jquery/3.6.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-3.6.1-vsdoc.js",
+        "Content/Scripts/jquery-3.6.1.js",
+        "Content/Scripts/jquery-3.6.1.min.js",
+        "Content/Scripts/jquery-3.6.1.min.map",
+        "Content/Scripts/jquery-3.6.1.slim.js",
+        "Content/Scripts/jquery-3.6.1.slim.min.js",
+        "Content/Scripts/jquery-3.6.1.slim.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-3.6.1.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.3.6.1.nupkg.sha512",
+        "jquery.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "bootstrap >= 5.2.2"
+      "AspNet.ScriptManager.bootstrap >= 4.6.0",
+      "AspNet.ScriptManager.jQuery >= 3.6.0",
+      "bootstrap >= 5.2.2",
+      "jQuery >= 3.6.1"
     ]
   },
   "packageFolders": {
@@ -380,9 +459,21 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AspNet.ScriptManager.bootstrap": {
+            "target": "Package",
+            "version": "[4.6.0, )"
+          },
+          "AspNet.ScriptManager.jQuery": {
+            "target": "Package",
+            "version": "[3.6.0, )"
+          },
           "bootstrap": {
             "target": "Package",
             "version": "[5.2.2, )"
+          },
+          "jQuery": {
+            "target": "Package",
+            "version": "[3.6.1, )"
           }
         },
         "imports": [
@@ -406,5 +497,47 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Versão detectada do pacote fora da restrição de dependência: AspNet.ScriptManager.bootstrap 4.6.0 requer bootstrap (>= 4.5.9 && < 4.6.1), mas a versão bootstrap 5.2.2 foi resolvida.",
+      "libraryId": "bootstrap",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Versão detectada do pacote fora da restrição de dependência: AspNet.ScriptManager.jQuery 3.6.0 requer jQuery (>= 3.5.9 && < 3.6.1), mas a versão jQuery 3.6.1 foi resolvida.",
+      "libraryId": "jQuery",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'AspNet.ScriptManager.bootstrap 4.6.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "AspNet.ScriptManager.bootstrap",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'AspNet.ScriptManager.jQuery 3.6.0' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "AspNet.ScriptManager.jQuery",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
