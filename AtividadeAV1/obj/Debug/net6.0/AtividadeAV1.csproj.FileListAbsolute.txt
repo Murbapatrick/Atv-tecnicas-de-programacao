@@ -58,6 +58,8 @@ C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\bin\Debug\net6.0\AtividadeAV1.runtimeconfig.json
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\bin\Debug\net6.0\AtividadeAV1.dll
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\bin\Debug\net6.0\AtividadeAV1.pdb
+C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\bin\Debug\net6.0\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\bin\Debug\net6.0\AspNet.ScriptManager.jQuery.dll
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\obj\Debug\net6.0\AtividadeAV1.csproj.AssemblyReference.cache
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\obj\Debug\net6.0\AtividadeAV1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\obj\Debug\net6.0\AtividadeAV1.AssemblyInfoInputs.cache
@@ -71,6 +73,7 @@ C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\obj\Debug\net6.0\scopedcss\bundle\AtividadeAV1.styles.css
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\obj\Debug\net6.0\scopedcss\projectbundle\AtividadeAV1.bundle.scp.css
+C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\obj\Debug\net6.0\AtividadeAV1.csproj.CopyComplete
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\obj\Debug\net6.0\AtividadeAV1.dll
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\obj\Debug\net6.0\refint\AtividadeAV1.dll
 C:\Users\Pichau\Desktop\trabalho facul\Atv-tecnicas-de-programacao\AtividadeAV1\obj\Debug\net6.0\AtividadeAV1.pdb

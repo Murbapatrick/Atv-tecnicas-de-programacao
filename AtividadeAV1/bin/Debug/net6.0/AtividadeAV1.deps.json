@@ -7,10 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "AtividadeAV1/1.0.0": {
+        "dependencies": {
+          "AspNet.ScriptManager.bootstrap": "4.6.0",
+          "AspNet.ScriptManager.jQuery": "3.6.0",
+          "bootstrap": "5.2.2",
+          "jQuery": "3.6.1"
+        },
         "runtime": {
           "AtividadeAV1.dll": {}
         }
-      }
+      },
+      "AspNet.ScriptManager.bootstrap/4.6.0": {
+        "dependencies": {
+          "bootstrap": "5.2.2"
+        },
+        "runtime": {
+          "lib/net45/AspNet.ScriptManager.bootstrap.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.6.0.0"
+          }
+        }
+      },
+      "AspNet.ScriptManager.jQuery/3.6.0": {
+        "dependencies": {
+          "jQuery": "3.6.1"
+        },
+        "runtime": {
+          "lib/net45/AspNet.ScriptManager.jQuery.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          }
+        }
+      },
+      "bootstrap/5.2.2": {},
+      "jQuery/3.6.1": {}
     }
   },
   "libraries": {
@@ -18,6 +48,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AspNet.ScriptManager.bootstrap/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a5pmSriJ7mOxTLgGmLlIbUX06nPW9q8kZ6ehoklmyrA4wiIRs2XMlgjx7sx/bORKcNCh3Fwl7fQ1nlqBZqiegA==",
+      "path": "aspnet.scriptmanager.bootstrap/4.6.0",
+      "hashPath": "aspnet.scriptmanager.bootstrap.4.6.0.nupkg.sha512"
+    },
+    "AspNet.ScriptManager.jQuery/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B/2ickp9SMhDpRYpELMlXsv/MfWKxe2G96Z8qRfw66Nc9em2BncOIYXMOW2T7/Ws/RbMVXGlmoZA170c0GhwyA==",
+      "path": "aspnet.scriptmanager.jquery/3.6.0",
+      "hashPath": "aspnet.scriptmanager.jquery.3.6.0.nupkg.sha512"
+    },
+    "bootstrap/5.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-947NZilDSNJ8V9xUBnwFR22RsyznWzPelKYKVbT7qwDlRR5YunBoO8bSKbLkdfajiSc2LWatBU4fMHrjrF0oeA==",
+      "path": "bootstrap/5.2.2",
+      "hashPath": "bootstrap.5.2.2.nupkg.sha512"
+    },
+    "jQuery/3.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qkG79nkEvz6Oeabe5+qTB0O/FZagMmzpaafeAJZIppYTfrJim75VWNYuR26MLQCx8FWoqarqjpaDZ0/YubKmWg==",
+      "path": "jquery/3.6.1",
+      "hashPath": "jquery.3.6.1.nupkg.sha512"
     }
   }
 }

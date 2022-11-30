@@ -7,10 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\css\formulario.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AspNet.ScriptManager.bootstrap" Version="4.6.0" />
     <PackageReference Include="AspNet.ScriptManager.jQuery" Version="3.6.0" />
     <PackageReference Include="bootstrap" Version="5.2.2" />
     <PackageReference Include="jQuery" Version="3.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\" />
   </ItemGroup>
 
 </Project>

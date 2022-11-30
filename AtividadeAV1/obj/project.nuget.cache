@@ -14,8 +14,8 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Versão detectada do pacote fora da restrição de dependência: AspNet.ScriptManager.bootstrap 4.6.0 requer bootstrap (>= 4.5.9 && < 4.6.1), mas a versão bootstrap 5.2.2 foi resolvida.",
-      "libraryId": "bootstrap",
+      "message": "Versão detectada do pacote fora da restrição de dependência: AspNet.ScriptManager.jQuery 3.6.0 requer jQuery (>= 3.5.9 && < 3.6.1), mas a versão jQuery 3.6.1 foi resolvida.",
+      "libraryId": "jQuery",
       "targetGraphs": [
         "net6.0"
       ]
@@ -24,8 +24,8 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Versão detectada do pacote fora da restrição de dependência: AspNet.ScriptManager.jQuery 3.6.0 requer jQuery (>= 3.5.9 && < 3.6.1), mas a versão jQuery 3.6.1 foi resolvida.",
-      "libraryId": "jQuery",
+      "message": "Versão detectada do pacote fora da restrição de dependência: AspNet.ScriptManager.bootstrap 4.6.0 requer bootstrap (>= 4.5.9 && < 4.6.1), mas a versão bootstrap 5.2.2 foi resolvida.",
+      "libraryId": "bootstrap",
       "targetGraphs": [
         "net6.0"
       ]
